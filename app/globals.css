@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    @apply font-sans bg-[#2C1D3A] text-gray-200; /* Dark pastel purple background */
+    font-family: 'Space Mono', monospace; /* Apply Space Mono */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
